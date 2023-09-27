@@ -1,0 +1,234 @@
+{
+    "boxShadow": "none",
+    "borderColor": "#E0DEDE",
+    "iconSVG": "/static/media/icon.efac588608711d232f1c6c8a2144d2dd.svg",
+    "onSubmit": "{{Set_TypebotChangeSessionStatus.run().then(() => {\n  showAlert('Typebot Change Session updated successfully', 'success');\n}).catch(() => {\n  showAlert('Error updating Session Typebot', 'error');\n});\ncloseModal('ModalTypebotChangeSessionStatu');}}",
+    "topRow": 1,
+    "type": "JSON_FORM_WIDGET",
+    "animateLoading": true,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "schema.__root_schema__.defaultValue"},
+        {"key": "schema.__root_schema__.borderRadius"},
+        {"key": "submitButtonStyles.buttonColor"},
+        {"key": "schema.__root_schema__.cellBorderRadius"},
+        {"key": "schema.__root_schema__.children.remoteJid.defaultValue"},
+        {"key": "schema.__root_schema__.children.remoteJid.accentColor"},
+        {"key": "schema.__root_schema__.children.remoteJid.borderRadius"},
+        {"key": "schema.__root_schema__.children.status.defaultValue"},
+        {"key": "schema.__root_schema__.children.status.accentColor"},
+        {"key": "schema.__root_schema__.children.status.borderRadius"}
+    ],
+    "showReset": false,
+    "dynamicHeight": "AUTO_HEIGHT",
+    "autoGenerateForm": true,
+    "resetButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "SECONDARY"
+    },
+    "isVisible": true,
+    "version": 1,
+    "isLoading": false,
+    "submitButtonLabel": "Save",
+    "childStylesheet": {
+        "CHECKBOX": {
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "ARRAY": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "CURRENCY_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "DATEPICKER": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PHONE_NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "OBJECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "MULTISELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PASSWORD_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "EMAIL_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "RADIO_GROUP": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SWITCH": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "MULTILINE_TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        }
+    },
+    "disabledWhenInvalid": true,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 60,
+    "useSourceData": false,
+    "schema": {"__root_schema__": {
+        "labelTextSize": "0.875rem",
+        "identifier": "__root_schema__",
+        "boxShadow": "none",
+        "isRequired": false,
+        "isCustomField": false,
+        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(FormTypebot.sourceData, FormTypebot.formData, FormTypebot.fieldState)}}",
+        "dataType": "object",
+        "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(FormTypebot.sourceData, FormTypebot.formData, FormTypebot.fieldState)}}",
+        "accessor": "__root_schema__",
+        "isVisible": true,
+        "label": "",
+        "originalIdentifier": "__root_schema__",
+        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(FormTypebot.sourceData, FormTypebot.formData, FormTypebot.fieldState)}}",
+        "children": {
+            "remoteJid": {
+                "labelTextSize": "0.875rem",
+                "identifier": "remoteJid",
+                "boxShadow": "none",
+                "isRequired": true,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.remoteJid))(FormTypebotChangeSessionStatus.sourceData, FormTypebotChangeSessionStatus.formData, FormTypebotChangeSessionStatus.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(FormTypebotChangeSessionStatus.sourceData, FormTypebotChangeSessionStatus.formData, FormTypebotChangeSessionStatus.fieldState)}}",
+                "dataType": "string",
+                "accessor": "remoteJid",
+                "isVisible": true,
+                "label": "Remote Jid (WhatsApp. Ex: 5511968162699@s.whatsapp.net)",
+                "originalIdentifier": "remoteJid",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(FormTypebotChangeSessionStatus.sourceData, FormTypebotChangeSessionStatus.formData, FormTypebotChangeSessionStatus.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 0,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Text Input"
+            },
+            "status": {
+                "labelTextSize": "0.875rem",
+                "identifier": "status",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.status))(FormTypebotChangeSessionStatus.sourceData, FormTypebotChangeSessionStatus.formData, FormTypebotChangeSessionStatus.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(FormTypebotChangeSessionStatus.sourceData, FormTypebotChangeSessionStatus.formData, FormTypebotChangeSessionStatus.fieldState)}}",
+                "dataType": "string",
+                "accessor": "status",
+                "isVisible": true,
+                "label": "Status (opened, paused or closed)",
+                "originalIdentifier": "status",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(FormTypebotChangeSessionStatus.sourceData, FormTypebotChangeSessionStatus.formData, FormTypebotChangeSessionStatus.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 1,
+                "isDisabled": false,
+                "sourceData": "",
+                "fieldType": "Text Input"
+            }
+        },
+        "position": -1,
+        "isDisabled": false,
+        "sourceData": {
+            "keyword_finish": "#SAIR",
+            "expire": 20,
+            "typebot": "francis-whatsapp-pesquisa-satisfacao-copy-copy-74fk24p",
+            "delay_message": 3000,
+            "enabled": true,
+            "url": "https://chat2.manualnegocioonline.com.br",
+            "unknown_message": "Mensagem não reconhecida2"
+        },
+        "cellBoxShadow": "none",
+        "fieldType": "Object"
+    }},
+    "mobileBottomRow": 41,
+    "widgetName": "FormTypebotChangeSessionStatus",
+    "submitButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "PRIMARY"
+    },
+    "dynamicPropertyPathList": [
+        {"key": "schema.__root_schema__.children.sign_msg.defaultValue"},
+        {"key": "schema.__root_schema__.children.reopen_conversation.defaultValue"},
+        {"key": "schema.__root_schema__.children.conversation_pending.defaultValue"},
+        {"key": "schema.__root_schema__.children.account_id.defaultValue"},
+        {"key": "schema.__root_schema__.children.webhook_url.defaultValue"}
+    ],
+    "displayName": "JSON Form",
+    "bottomRow": 35,
+    "fieldLimitExceeded": false,
+    "parentRowSpace": 10,
+    "title": "Typebot Change Session Status",
+    "hideCard": false,
+    "mobileRightColumn": 25,
+    "parentColumnSpace": 6.9375,
+    "dynamicTriggerPathList": [{"key": "onSubmit"}],
+    "borderWidth": "0",
+    "sourceData": "{\n    \"remoteJid\": \"@s.whatsapp.net\",\n    \"status\": \"\"\n}",
+    "resetButtonLabel": "Reset",
+    "key": "lgqqk5r1jk",
+    "backgroundColor": "#fff",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "widgetId": "28lli5jdvr",
+    "minWidth": 450,
+    "parentId": "8m0yhclt7g",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 0,
+    "scrollContents": true,
+    "responsiveBehavior": "fill",
+    "fixedFooter": true,
+    "originalTopRow": 1,
+    "mobileLeftColumn": 0,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

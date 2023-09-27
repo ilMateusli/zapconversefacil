@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "Scripts",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Home_Scripts",
+  "deleted": false,
+  "gitSyncId": "64c534835ebbd221b60b4c54_64c5372a5dd3482b9ab5e11e"
+}

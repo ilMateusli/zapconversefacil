@@ -1,0 +1,11 @@
+{{
+	{
+		"enabled": FormChatwoot.formData.enabled,
+		"account_id": String(FormChatwoot.formData.account_id),
+		"token": FormChatwoot.formData.token,
+		"url": FormChatwoot.formData.url,
+		"sign_msg": FormChatwoot.formData.sign_msg,
+		"reopen_conversation": FormChatwoot.formData.reopen_conversation,
+		"conversation_pending": FormChatwoot.formData.conversation_pending
+	}
+}}

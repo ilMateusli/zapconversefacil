@@ -1,0 +1,11 @@
+{{
+	{
+		"enabled": FormTypebot.formData.enabled,
+		"url": (FormTypebot.formData.url),
+		"typebot": FormTypebot.formData.typebot,
+		"expire": FormTypebot.formData.expire,
+		"keyword_finish": FormTypebot.formData.keyword_finish,
+		"delay_message": FormTypebot.formData.delay_message,
+		"unknown_messageg": FormTypebot.formData.cunknown_messageg
+	}
+}}

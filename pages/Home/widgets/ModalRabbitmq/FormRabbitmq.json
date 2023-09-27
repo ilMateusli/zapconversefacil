@@ -1,0 +1,220 @@
+{
+    "boxShadow": "none",
+    "borderColor": "#E0DEDE",
+    "iconSVG": "/static/media/icon.efac588608711d232f1c6c8a2144d2dd.svg",
+    "onSubmit": "{{Set_Rabbitmq.run().then(() => {\n  showAlert('Rabbitmq updated successfully', 'success');\n}).catch(() => {\n  showAlert('Error updating rabbitmq', 'error');\n});\ncloseModal('ModalRabbitmq');}}",
+    "topRow": 0,
+    "type": "JSON_FORM_WIDGET",
+    "animateLoading": true,
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.events.defaultValue"},
+        {"key": "schema.__root_schema__.children.enabled.accentColor"},
+        {"key": "schema.__root_schema__.children.enabled.defaultValue"},
+        {"key": "borderRadius"},
+        {"key": "schema.__root_schema__.children.events.accentColor"},
+        {"key": "submitButtonStyles.buttonColor"},
+        {"key": "schema.__root_schema__.children.events.borderRadius"}
+    ],
+    "showReset": false,
+    "dynamicHeight": "AUTO_HEIGHT",
+    "autoGenerateForm": true,
+    "resetButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "SECONDARY"
+    },
+    "isVisible": true,
+    "version": 1,
+    "isLoading": false,
+    "submitButtonLabel": "Save",
+    "childStylesheet": {
+        "CHECKBOX": {
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "ARRAY": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "CURRENCY_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "DATEPICKER": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PHONE_NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "OBJECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "MULTISELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PASSWORD_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "EMAIL_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "RADIO_GROUP": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SWITCH": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "MULTILINE_TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        }
+    },
+    "disabledWhenInvalid": true,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 30,
+    "useSourceData": false,
+    "schema": {"__root_schema__": {
+        "labelTextSize": "0.875rem",
+        "identifier": "__root_schema__",
+        "boxShadow": "none",
+        "isRequired": false,
+        "isCustomField": false,
+        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(FormWebhook.sourceData, FormWebhook.formData, FormWebhook.fieldState)}}",
+        "dataType": "object",
+        "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(FormWebhook.sourceData, FormWebhook.formData, FormWebhook.fieldState)}}",
+        "accessor": "__root_schema__",
+        "isVisible": true,
+        "label": "",
+        "originalIdentifier": "__root_schema__",
+        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(FormWebhook.sourceData, FormWebhook.formData, FormWebhook.fieldState)}}",
+        "children": {
+            "enabled": {
+                "labelTextSize": "0.875rem",
+                "identifier": "enabled",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.enabled))(FormWebhook.sourceData, FormWebhook.formData, FormWebhook.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(FormWebhook.sourceData, FormWebhook.formData, FormWebhook.fieldState)}}",
+                "dataType": "boolean",
+                "accessor": "enabled",
+                "isVisible": true,
+                "label": "Enabled",
+                "alignWidget": "LEFT",
+                "originalIdentifier": "enabled",
+                "children": {},
+                "position": 0,
+                "isDisabled": false,
+                "sourceData": true,
+                "fieldType": "Switch"
+            },
+            "events": {
+                "labelTextSize": "0.875rem",
+                "identifier": "events",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isFilterable": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.events))(FormRabbitmq.sourceData, FormRabbitmq.formData, FormRabbitmq.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(FormRabbitmq.sourceData, FormRabbitmq.formData, FormRabbitmq.fieldState)}}",
+                "dataType": "array",
+                "accessor": "events",
+                "isVisible": true,
+                "label": "Events",
+                "serverSideFiltering": false,
+                "originalIdentifier": "events",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(FormRabbitmq.sourceData, FormRabbitmq.formData, FormRabbitmq.fieldState)}}",
+                "children": {},
+                "options": "[\n\n  {\n    \"label\": \"APPLICATION_STARTUP\",\n    \"value\": \"APPLICATION_STARTUP\"\n  },\n  {\n    \"label\": \"QRCODE_UPDATED\",\n    \"value\": \"QRCODE_UPDATED\"\n  },\n  {\n    \"label\": \"MESSAGES_SET\",\n    \"value\": \"MESSAGES_SET\"\n  },\n  {\n    \"label\": \"MESSAGES_UPSERT\",\n    \"value\": \"MESSAGES_UPSERT\"\n  },\n  {\n    \"label\": \"MESSAGES_UPDATE\",\n    \"value\": \"MESSAGES_UPDATE\"\n  },\n  {\n    \"label\": \"MESSAGES_DELETE\",\n    \"value\": \"MESSAGES_DELETE\"\n  },\n  {\n    \"label\": \"SEND_MESSAGE\",\n    \"value\": \"SEND_MESSAGE\"\n  },\n  {\n    \"label\": \"CONTACTS_SET\",\n    \"value\": \"CONTACTS_SET\"\n  },\n  {\n    \"label\": \"CONTACTS_UPSERT\",\n    \"value\": \"CONTACTS_UPSERT\"\n  },\n  {\n    \"label\": \"CONTACTS_UPDATE\",\n    \"value\": \"CONTACTS_UPDATE\"\n  },\n  {\n    \"label\": \"PRESENCE_UPDATE\",\n    \"value\": \"PRESENCE_UPDATE\"\n  },\n  {\n    \"label\": \"CHATS_SET\",\n    \"value\": \"CHATS_SET\"\n  },\n   {\n    \"label\": \"CHATS_UPSERT\",\n    \"value\": \"CHATS_UPSERT\"\n  },\n  {\n    \"label\": \"CHATS_UPDATE\",\n    \"value\": \"CHATS_UPDATE\"\n  },\n  {\n    \"label\": \"CHATS_DELETE\",\n    \"value\": \"CHATS_DELETE\"\n  },\n  {\n    \"label\": \"GROUPS_UPSERT\",\n    \"value\": \"GROUPS_UPSERT\"\n  },\n  {\n    \"label\": \"GROUP_UPDATE\",\n    \"value\": \"GROUP_UPDATE\"\n  },\n  {\n    \"label\": \"GROUP_PARTICIPANTS_UPDATE\",\n    \"value\": \"GROUP_PARTICIPANTS_UPDATE\"\n  },\n  {\n    \"label\": \"CONNECTION_UPDATE\",\n    \"value\": \"CONNECTION_UPDATE\"\n  },\n  {\n    \"label\": \"CALL\",\n    \"value\": \"CALL\"\n  },\n  {\n    \"label\": \"NEW_JWT_TOKEN\",\n    \"value\": \"NEW_JWT_TOKEN\"\n  }\n]",
+                "position": 2,
+                "isDisabled": false,
+                "sourceData": [],
+                "fieldType": "Multiselect"
+            }
+        },
+        "position": -1,
+        "isDisabled": false,
+        "sourceData": {
+            "date_of_birth": "20/02/1990",
+            "employee_id": 1001,
+            "name": "John"
+        },
+        "cellBoxShadow": "none",
+        "fieldType": "Object"
+    }},
+    "mobileBottomRow": 41,
+    "widgetName": "FormRabbitmq",
+    "submitButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "PRIMARY"
+    },
+    "dynamicPropertyPathList": [{"key": "schema.__root_schema__.children.events.defaultValue"}],
+    "displayName": "JSON Form",
+    "bottomRow": 30,
+    "fieldLimitExceeded": false,
+    "parentRowSpace": 10,
+    "title": "Rabbitmq",
+    "hideCard": false,
+    "mobileRightColumn": 25,
+    "parentColumnSpace": 6.9375,
+    "dynamicTriggerPathList": [{"key": "onSubmit"}],
+    "borderWidth": "0",
+    "sourceData": "{\n\t\"enabled\": {{Find_Rabbitmq.data.enabled || false}},\n    \"events\": {{Find_Rabbitmq.data.events || []}}    \n}",
+    "resetButtonLabel": "Reset",
+    "key": "lgqqk5r1jk",
+    "backgroundColor": "#fff",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "widgetId": "gdkpog7ep5",
+    "minWidth": 450,
+    "parentId": "rkuaegvcin",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 0,
+    "scrollContents": true,
+    "responsiveBehavior": "fill",
+    "fixedFooter": true,
+    "originalTopRow": 0,
+    "mobileLeftColumn": 0,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

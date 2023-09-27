@@ -1,0 +1,26 @@
+{{
+	{
+		"instanceName": FormInstance.formData.instance.instanceName,
+		"token": FormInstance.formData.instance.token,
+		"qrcode": FormInstance.formData.instance.qrcode,
+		"webhook": FormInstance.formData.webhook.webhook,
+		"webhook_by_events": FormInstance.formData.webhook.webhook_by_events,
+		"websocket_enabled": FormInstance.formData.websocket.websocket_enabled,
+		"websocket_events": FormInstance.formData.websocket.websocket_events,
+		"rabbitmq_enabled": FormInstance.formData.websocket.rabbitmq_enabled,
+		"rabbitmq_events": FormInstance.formData.websocket.rabbitmq_events,
+		"events": FormInstance.formData.webhook.events,
+		"reject_call": FormInstance.formData.settings.reject_call,
+		"msg_call": FormInstance.formData.settings.msg_call,
+		"groups_ignore": FormInstance.formData.settings.groups_ignore,
+		"always_online": FormInstance.formData.settings.always_online,
+		"read_messages": FormInstance.formData.settings.read_messages,
+		"read_status": FormInstance.formData.settings.read_status,
+		"chatwoot_account_id": FormInstance.formData.chatwoot.chatwoot_account_id,
+		"chatwoot_token": FormInstance.formData.chatwoot.chatwoot_token,
+		"chatwoot_url": FormInstance.formData.chatwoot.chatwoot_url,
+		"chatwoot_sign_msg": FormInstance.formData.chatwoot.chatwoot_sign_msg,
+		"chatwoot_reopen_conversation": FormInstance.formData.chatwoot.chatwoot_reopen_conversation,
+		"chatwoot_conversation_pending": FormInstance.formData.chatwoot.chatwoot_conversation_pending
+	}
+}}

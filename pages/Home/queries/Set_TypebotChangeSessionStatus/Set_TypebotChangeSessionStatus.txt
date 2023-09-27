@@ -1,0 +1,6 @@
+{{
+{
+    "remoteJid": FormTypebotChangeSessionStatus.formData.remoteJid,
+    "status": FormTypebotChangeSessionStatus.formData.status
+}
+}}

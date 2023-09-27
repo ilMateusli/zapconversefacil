@@ -1,0 +1,12 @@
+{{
+	{
+    "privacySettings": {
+        "readreceipts": FormProfile.formData.privacySettings.readreceipts,
+        "profile": FormProfile.formData.privacySettings.profile,
+        "status": FormProfile.formData.privacySettings.status,
+        "online": FormProfile.formData.privacySettings.online,
+        "last": FormProfile.formData.privacySettings.last,
+        "groupadd": FormProfile.formData.privacySettings.groupadd
+		}
+	}
+}}
